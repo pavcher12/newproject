@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: rgb(238, 234, 234);
+        font-family: kantumruy pro;
+        text-align: center;
+      }
+      .ctrl {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        
+      }
+      form {
+        background-color: white;
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 1px 1px 5px black;
+      }
+      .pw,
+      .phone {
+        width: 100%;
+        padding: 10px;
+        border-radius: 8px;
+        border-width: 1px;
+      }
+      .pw {
+        margin-top: 20px;
+      }
+      .log {
+        width: 100%;
+        padding: 10px;
+        margin-top: 15px;
+        background-color: #0866ff;
+        border: none;
+        border-radius: 8px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 15px;
+      }
+      .log:hover {
+        background-color: #1349a0;
+        
+        
+      }
+      h1 {
+        color: #0866ff;
+      }
+      .create {
+        margin-top: 15px;
+        border-radius: 8px;
+        border: none;
+        background-color: rgb(190, 186, 186);
+        padding: 10px;
+      }
+      hr {
+        margin-top: 15px;
+        
+      }
+      .create:hover {
+        background-color:  rgb(173, 170, 170);
+      }
+     .a1 {
+      text-decoration: none;
+
+     }
+     .a1:hover {
+      text-decoration: underline;
+     }
+    </style>
+  </head>
+  <body>
+    <h1>Facebook</h1>
+    <div class="ctrl">
+      <form>
+        <input
+          type="text"
+          placeholder="Email or phone number..."
+          class="phone"
+        />
+        <input type="password" placeholder="Password" class="pw" />
+        <input type="button" value="Login" class="log" /> <br />
+        <a class="a1" href="#">Forgot password</a>
+        <hr />
+        <input type="button" value="Create new account" class="create" />
+      </form>
+    </div>
+  </body>
+</html>
