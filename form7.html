@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .img1 {
+            width: 150px;
+        }
+        .div2 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            margin-right: 10px;
+        }
+        hr {
+            height: 5px;
+            background: linear-gradient(to right , red , blue , green , purple);
+        }
+       
+        .div3 {
+            display: flex;
+            justify-content: center;
+        }
+        ul {
+            display: flex;
+            gap: 35px;
+            text-transform: uppercase;
+            list-style-type: none;
+        }
+        a {
+            font-family: Khmer OS Siemreap;
+            text-decoration: none;
+            font-weight: bold;
+            
+        }
+        .b1 {
+            background-color: #0b0;
+            padding: 10px;
+            border: none;
+            border-radius: 7px;
+            width: 150px;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+        .img2 {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border-width: 5px;
+            border-color: blue;
+            border-style: solid;
+            margin-top: 15px;
+        }
+        .img3 {
+            width: 80px;
+        }
+        .divp {
+            background-color: green;
+            width: 100%;
+            padding: 10px;
+            font-size: 25px;
+            font-weight: bold;
+            text-align: center;
+           
+        }
+        .wellcome {
+            margin-top: 25px;
+        }
+        input {
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+        .divend {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        form {
+            background-color: white;
+           width: 500px;
+           display: flex;
+           flex-direction: column;
+           padding: 10px;
+           border-radius: 10px;
+        }
+        .div10 {
+            width: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        textarea {
+            height: 100px;
+        }
+        body {
+            background: linear-gradient(to right , rgb(118, 177, 255) , rgb(180, 162, 162));
+        }
+        .img3 {
+            mix-blend-mode: multiply;
+        }
+        input:focus {
+            border-width: 2px;
+            border-color: black;
+            outline: none;
+        }
+        textarea:focus {
+            border-width: 2px;
+            border-color: black;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <div class="div2">
+            <img src="picture/Png.png" class="img1"  alt="">
+            <h1>Welcome to my website</h1>
+        </div><hr>
+        <div class="div3">
+            <ul>
+                <li><a href="">Facebook</a></li>
+                <li><a href="">Telegram</a></li>
+                <li><a href="">Linkin</a></li>
+                <li><a href="">whatsapp</a></li>
+            </ul>
+        </div>
+        <center><p>This is my first time I write the website !!!</p></center><br>
+        <center>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam incidunt magni dolores, totam quasi a eos ea reiciendis. Assumenda nisi soluta beatae, quaerat pariatur quis dolorum odit eum quae nobis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe alias hic maxime, minus pariatur corporis nostrum error unde facere eaque modi, harum quam aliquid quisquam aut qui esse eos sint! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis quia nihil, doloribus necessitatibus dolor repellat? Mollitia, consectetur praesentium, nemo ratione vitae voluptate repellat inventore blanditiis sapiente est reprehenderit unde porro.</center>
+        <center><button class="b1">Get hi</button></center>
+        <center><img class="img2" src="picture/poipet.jpg" alt=""></center>
+        <center><img class="img3" src="picture/arrow.jpg" alt=""></center>
+        <div class="divp">
+            <p>Your age</p>
+        </div>
+        <center><img class="img3" src="picture/arrow.jpg" alt=""></center>
+        <div class="divp">
+            <p>Your name</p>
+        </div>
+        <h1 class="wellcome">Wellcome to my website</h1>
+        <div class="divend">
+            <div class="div10">
+                 <form class="divend1">
+                <label for="">User name</label>
+                <input type="text" value="" placeholder="Please enter username" class="inputa">
+                <label for="">Email address</label>
+                <input type="text" value="" placeholder="Please enter email">
+                <label for="">Phone number</label>
+                <input type="text" value="" placeholder="Please enter Phone number">
+                <label for="">Message</label>
+                <textarea name="" id="" placeholder="write your message..."></textarea>
+                
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
